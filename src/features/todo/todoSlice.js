@@ -34,4 +34,5 @@ export const todoSlice = createSlice({
   },
 });
 
-export default todoSlice.reducer;
+export const { addTodo ,deleteTodo ,marksAsDone}=todoSlice.actions;
+export default todoSlice.reducer ;
